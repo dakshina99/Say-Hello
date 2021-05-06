@@ -2,11 +2,48 @@
 <html>
   <head>
     <title>Main</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+  <style>
+  body{
+    background-image: url(https://4wave.net/wordpress/wp-content/uploads/2019/04/AdobeStock_189224831.jpeg);
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .btn{
+    font-family: 'Roboto Mono', monospace;
+    position: fixed;
+    left: 50vw;
+    top: 50vh;
+    padding: 8px;
+    transform: translate(-50%, -50%);
+    width: 4cm;
+    height: 2cm;
+    border-radius: 20px;
+    background-color: #007086d1;
+    border-color: #007086d1;
+    font-size: 40px;
+  }
+  .btn-secondary:hover {
+    background-color: #007086d1;
+    border-color: #007086d1;
+  }
+  h1{
+    font-family: 'Alfa Slab One', cursive;
+    color: #c8e7fd;
+    padding-top: 2cm;
+    text-align: center;
+  }
+  </style>
   </head>
   <body>
-    <h1>Main</h1>
+    <h1>SAY HELLO <br> Story Chain</h1>
     <form method="POST">
-      <button type="submit" name="randomGet" value="randomGet">START</button>
+      <button type="submit button" class="btn btn-secondary" name="randomGet" value="randomGet">START</button>
     </form>
   </body>
 </html>
